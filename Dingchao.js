@@ -1,8 +1,6 @@
 /*
-Dingchao music unlock vip
+Dingchao unlock vip
 
-QX1.0.0:
-^https?:\/\/vip1\.kuwo\.cn\/(vip\/v2\/user\/vip|vip\/spi/mservice) url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Kuwo.js
 
 MITM = apiv2.dingstock.net
 */
