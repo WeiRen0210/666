@@ -8,10 +8,9 @@ MITM = apiv2.dingstock.net
 
 var body = $response.body;
 var url = $request.url;
+var obj = JSON.parse(body);
 
-const path1 = "\/xserver\/user\/u\/detail";
-
-let obj = JSON.parse(body);
+const path1 = '\/xserver\/user\/u\/detail';
 
 if (url.indexOf(path1) != -1) {
 	obj.data["isVip"] = true;
