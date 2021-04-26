@@ -11,7 +11,7 @@ var body = $response.body;
 var url = $request.url;
 var obj = JSON.parse(body);
 
-const vip = '/xserver/user/u/detail';
+const path1 = "/xserver/user/u/detail";
 
 if (url.indexOf(vip) != -1) {
 	obj.data["isVip"] = "true";
