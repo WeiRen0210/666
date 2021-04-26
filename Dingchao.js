@@ -10,11 +10,11 @@ var body = $response.body;
 var url = $request.url;
 var obj = JSON.parse(body);
 
-const path1 = '\/xserver\/user\/u\/detail';
+const vip = '/xserver/user/u/detail';
 
-if (url.indexOf(path1) != -1) {
-	obj.data["isVip"] = true;
-	obj.data["vipValidity"] = 1745659932000;
+if (url.indexOf(vip) != -1) {
+	obj.data["isVip"] = "true";
+	obj.data["vipValidity"] = "1745659932000";
 	body = JSON.stringify(obj);
 }
 $done({body});
